@@ -1,0 +1,47 @@
+Downloading the file:
+  MAC USERS:
+    Download atom to your machine, or another source code editor if you prefer
+    open the terminal
+    Visit https://brew.sh/ in your browser and copy the long code thing into your terminal and press enter
+    follow the prompts to install homebrew
+    Next, once that completes, type "brew install python" into the commandline and press enter
+    Open atom
+    Create a new project folder through file >> add new project folder >> new folder >> open
+    Name it something appropriate
+    Right click the folder in the left sidebar
+    Click new file, and enter __anythingyouwant__.py into the path field
+    Copy and paste the code from analysis.py into your file
+    You now have the code downloaded to your machine, but there are still a couple more steps
+  PC USERS:
+    Figure it out
+
+Dealing with file paths:
+  For line 5, acquire the file path of your six flags csv file
+    MAC USERS:
+      Locate the file in finder
+      Right click or control click on the file in finder to display a menu
+      Hold down the option key
+      Click "copy file as pathname"
+      Paste into the single quoted section of line 5 thurrently contains '/Users/bengoldstein/Downloads/scrambler-acc.csv'
+    PC USERS:
+      Google how the heck to do it
+  For line 59, enter the desired path of the file to which you would like the data written
+    if the file doesn't currently exist, the program will create it
+    In order to do this, change the name of the file from __yourname__.csv to __anythingelse__.csv
+    This will create a file in the same location as your six flags file with the new name of your choice
+
+
+Running the code:
+  You will need to install the script package from atom in order to run the code
+  Open preferences through Atom >> preferences
+  click install from the list on the left
+  search script and click install for the top one (should be by rgbkrk)
+  You are now ready to run the code!  Return to the tab with your file in it, press cmd S to save, then cmd I to run
+  After the program finishes, check the location of your six flags file for another file with the name you entered in line 59
+  Open that file, and all of the refined data should be there!
+  You can then create charts and scatter plots of the data, but to save it you must press save as and save it as a different file format (not csv)
+
+
+Supplemental resources:
+  The simulation.py file was written by mrs. ireland (RIP), but requires the installation of many dependencies through the terminal
+  The following link is a visual simulation in desmos graphing calculator that I made.  https://www.desmos.com/calculator/ashieowkfp
